@@ -143,5 +143,15 @@ namespace WE2002___MultiTool____by_CARP_____maxiducoli
         {
             CargarForm("VagExtractor.dll", "VagExtractor.frmVagExtractor");
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            CargarForm("WeCompress.dll", "WeCompress.frmWeC");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            CargarForm("Winning Eleven - Nombres largos.dll", "Winning_Eleven___Nombres_largos.frmWinningElevenNombresLargos");
+        }
     }
 }

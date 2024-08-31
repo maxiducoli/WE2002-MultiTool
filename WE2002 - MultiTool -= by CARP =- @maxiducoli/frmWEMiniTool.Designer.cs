@@ -38,6 +38,8 @@
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -77,7 +79,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(60, 175);
+            linkLabel1.Location = new Point(65, 246);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(270, 15);
             linkLabel1.TabIndex = 3;
@@ -87,7 +89,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.cafecito;
-            pictureBox1.Location = new Point(13, 162);
+            pictureBox1.Location = new Point(18, 233);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(41, 28);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -146,11 +148,35 @@
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
             // 
+            // button9
+            // 
+            button9.BackgroundImageLayout = ImageLayout.Stretch;
+            button9.Location = new Point(220, 110);
+            button9.Name = "button9";
+            button9.Size = new Size(98, 43);
+            button9.TabIndex = 10;
+            button9.Text = "Compresor de imágenes";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button10
+            // 
+            button10.BackgroundImageLayout = ImageLayout.Stretch;
+            button10.Location = new Point(12, 159);
+            button10.Name = "button10";
+            button10.Size = new Size(98, 43);
+            button10.TabIndex = 11;
+            button10.Text = "Creador nombres largos";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
             // frmWEMiniTool
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(347, 212);
+            ClientSize = new Size(347, 270);
+            Controls.Add(button10);
+            Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -182,5 +208,7 @@
         private Button button6;
         private Button button7;
         private Button button8;
+        private Button button9;
+        private Button button10;
     }
 }
